@@ -3,6 +3,6 @@ public class FirstDialog
 {
   public static void main(String[] args)
   {
-    JOptionPane.showMessageDialog(null, "First Java dialog");
+    JOptionPane.showMessageDialog(null, "Hello David");
   }
 }
