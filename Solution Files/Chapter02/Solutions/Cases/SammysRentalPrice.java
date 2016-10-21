@@ -20,6 +20,7 @@ public class SammysRentalPrice
       System.out.println("S  Sammy's makes it fun in the sun.  S");
       System.out.println("S                                    S");
       System.out.println("SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS");
-      System.out.println("For a rental of " + hours + " hours and " + extraMinutes + " minutes, the price is $" + price);
+      System.out.println("For a rental of " + hours + " hours and " +
+                  extraMinutes + " minutes, the price is $" + price);
    }
 }

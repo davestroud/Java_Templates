@@ -10,7 +10,7 @@ public class DebugTwo4
         "Enter price of item you are buying", "Purchases",
         JOptionPane.INFORMATION_MESSAGE);
     cost = Double.parseDouble(costString);
-    JOptionPane.showMessageDialog(null,"With" + TAX * 100 +
+    JOptionPane.showMessageDialog(null,"With " + TAX * 100 +
       "% tax, purchase is $" + (cost + cost * TAX));
   }
 }
