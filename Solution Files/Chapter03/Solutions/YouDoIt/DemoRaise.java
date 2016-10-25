@@ -6,6 +6,7 @@ public class DemoRaise{
     predictRaise(400.00);
     predictRaise(salary);
     predictRaise(startingWage);
+    predictRaiseUsingRate(salary, 2.0);
   }
 
   public static void predictRaise(double salary) {
@@ -15,5 +16,11 @@ public class DemoRaise{
     System.out.println("Current salary: " +
         salary + "    After raise: " +
           newSalary);
+  }
+
+  public static void predictRaiseUsingRate(double salary, double rate){
+    double newAmount;
+    newAmount = salary * (1 + rate);
+    System.out.println("With raise, new salary is " + newAmount);
   }
 }
