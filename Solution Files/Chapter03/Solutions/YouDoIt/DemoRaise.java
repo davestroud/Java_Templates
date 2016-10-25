@@ -8,12 +8,12 @@ public class DemoRaise{
     predictRaise(startingWage);
   }
 
-  public static void predictRaise(double salary){
+  public static void predictRaise(double salary) {
     double newSalary;
     final double RAISE_RATE = 1.10;
     newSalary = salary * RAISE_RATE;
     System.out.println("Current salary: " +
-        salary + "  After raise: " +
-          newSalary);  
+        salary + "    After raise: " +
+          newSalary);
   }
 }
