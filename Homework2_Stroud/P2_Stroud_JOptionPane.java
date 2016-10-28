@@ -3,9 +3,14 @@ public class P2_Stroud_JOptionPane {
 
   public static void main(String[] args) {
 
-    int sum, average, product, smallest, largest;
     int num1, num2, num3;
+    int sum, average, product, smallest, largest;
 
+    num1 = JOptionPane.showMessageDialog("Enter first integer: ");
+    num2 = JOptionPane.showMessageDialog("Enter second integer: ");
+    num3 = JOptionPane.showMessageDialog("Enter third integer: ");
+
+    JOptionPane.showMessageDialog(null, sum);
   }
 
     public static int sum(int num1, int num2, int num3) {
