@@ -14,17 +14,21 @@ public class P2_Stroud_Scanner {
     displaySum(num1, num2, num3);
     displayAverage(num1, num2, num3);
     displayProduct(num1, num2, num3);
+    displaySmallest(num1, num2, num3);
   }
 
   public static void displaySum(int x, int y, int z) {
-    System.out.println("Sum: " + (x + y + z));
+    System.out.println("The Sum is: " + (x + y + z));
   }
 
   public static void displayAverage(int x, int y, int z) {
-    System.out.println("Average: " + ((x + y + z) / 3));
+    System.out.println("The Average is: " + ((x + y + z) / 3));
   }
 
   public static void displayProduct(int x, int y, int z) {
-    System.out.println("Product" + (x * y * z));
+    System.out.println("The Product is: " + (x * y * z));
+  }
+  public static void displaySmallest(int x, int y, int z) {
+
   }
 }
