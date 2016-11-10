@@ -4,7 +4,8 @@ public class DemoArray3 {
 
     double[] salaries = {6.25, 6.55, 10.25, 16.85};
     System.out.println("Salaries one by one are:");
-    for(int x = 0; x < salaries.length; ++x)
-      System.out.println(salaries[x]);
+
+    for(int sub = 0; sub < salaries.length; ++sub)
+      System.out.println(salaries[sub]);
   }
 }
