@@ -15,12 +15,13 @@ public class FindPrice {
     strItem = JOptionPane.showInputDialog(null,
       "Enter the item number you want to order");
     itemOrdered = Integer.parseInt(strItem);
-    for(int x = 0; x < NUMBER_OF_ITEMS; ++x) {
+    for(int x = 0; x < NUMBER_OF_ITEMS && !validItem; ++x) {
 
       if(itemOrdered == validValues[x])
       {
         validItem = true;
         itemPrice = prices[x];
+        x = NUMBER_OF_ITEMS;
       }
     }
     if(validItem)
