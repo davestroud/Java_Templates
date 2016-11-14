@@ -22,3 +22,16 @@ public class PassArrayElement {
     System.out.println(" and at the end of method one is: " + one);
   }
 }
+
+
+int comparisionsToMake = someNums.length -1;
+for(a = 0; a < someNums.length - 1; ++a){
+  for(b = 0; b < comparisionsToMake; ++b) {
+    if(someNums[b] > someNums[b + 1]){
+      temp = sumNums[b];
+      someNums[b] = someNums[b + 1];
+      someNums[b + 1] = temp;
+    }
+  }
+  -- comparisionsToMake;
+}
