@@ -1,10 +1,10 @@
 // PayrollSystemTest.java
 // Employee hierarchy test program.
 
-public class PayrollSystemTest {
-
-   public static void main( String args[] ) {
-     
+public class PayrollSystemTest
+{
+   public static void main( String args[] )
+   {
       // create subclass objects
       SalariedEmployee salariedEmployee =
          new SalariedEmployee( "John", "Smith", "111-11-1111", 800.00 );
