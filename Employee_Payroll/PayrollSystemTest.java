@@ -27,6 +27,18 @@ public class PayrollSystemTest {
     basePlusCommissionEmployee,
     "earned", basePlusCommissionEmployee.earnings() );
 
+    // create four-element Employee array
+    Employee employees[] new Employee[ 4 ];
+
+    // initialize array with Employees
+    employees [ 0 ] = salariedEmployee;
+    employees [ 1 ] = hourlyEmployee;
+    employees [ 2 ] = commissionEmployee;
+    employees [ 3 ] = basePlusCommissionEmployee;
+
+    System.out.println( "Employees processed polymorphically:\n" ); 
+
+
 
 
   }
