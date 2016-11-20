@@ -12,7 +12,7 @@ public class CreateSpaServices
          firstService.getPrice());
       System.out.println("Second service details:");
       System.out.println(secondService.getServiceDescription() + "  $" +
-         secondService.getPrice());   
+         secondService.getPrice());
    }
    public static SpaService getData(SpaService s)
    {
@@ -20,7 +20,7 @@ public class CreateSpaServices
       double price;
       Scanner keyboard = new Scanner(System.in);
       System.out.print("Enter service >> ");
-      service = keyboard.nextLine();     
+      service = keyboard.nextLine();
       System.out.print("Enter price >> ");
       price = keyboard.nextDouble();
       keyboard.nextLine();
