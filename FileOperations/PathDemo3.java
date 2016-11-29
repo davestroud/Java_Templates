@@ -7,7 +7,7 @@ public class PathDemo3 {
   public static void main(String[] args) {
 
     Path filePath =
-      Paths.get("Users//davidstroud//Java//FileOperations//PathDemo.java");
+      Paths.get("//Users//davidstroud//Java//FileOperations//PathDemo.class");
     System.out.println("Path is " + filePath.toString());
     try
     {
