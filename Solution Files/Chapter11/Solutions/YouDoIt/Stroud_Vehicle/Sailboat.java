@@ -1,5 +1,5 @@
 //package com.vehicleswesell.vehicle;
-import javax.swing.*;
+//import javax.swing.*;
 public class Sailboat extends Vehicle
 {
    private int length;

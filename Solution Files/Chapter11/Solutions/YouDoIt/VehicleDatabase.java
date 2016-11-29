@@ -4,9 +4,9 @@
 import javax.swing.*;
 public class VehicleDatabase
 {
-   public static void main(String[] args) 
+   public static void main(String[] args)
    {
-      Vehicle[] vehicles = new Vehicle[5];
+      Vehicle[] vehicles = new Vehicle[4];
       int x;
       for(x = 0; x < vehicles.length; ++x)
       {
