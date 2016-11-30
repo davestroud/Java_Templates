@@ -10,7 +10,7 @@ public class PathDemo5 {
       Paths.get("//Users//davidstroud//Java//FileOperations//Owners.txt");
     try {
       BasicFileAttributes attr =
-        Files.readAttributes(filePath, BasicFileAttributes.class);
+        Files.readAttributes(filzzzzePath, BasicFileAttributes.class);
         System.out.println("Creation time" + attr.creationTime());
         System.out.println("Last modified time " +
           attr.lastModifiedTime());
