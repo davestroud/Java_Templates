@@ -7,7 +7,7 @@ public class PathDemo5 {
   public static void main(String[] args) {
 
     Path filePath =
-      Paths.get("//Users//davidstroud//Java//FileOperations//Owners.txt");
+      Paths.get("//Users//davidstroud//Java_Templates//FileOperations//Owners.txt");
     try {
       BasicFileAttributes attr =
         Files.readAttributes(filePath, BasicFileAttributes.class);
