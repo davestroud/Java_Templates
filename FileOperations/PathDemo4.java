@@ -6,7 +6,7 @@ public class PathDemo4 {
   public static void main(String[] args) {
 
     Path filePath =
-      Paths.get("//Users//davidstroud//Java_Templates//FileOperations//PathDemo.java");
+      Paths.get("//Users//davidstroud//Java//FileOperations//PathDemo.java");
     try
     {
       Files.delete(filePath);
