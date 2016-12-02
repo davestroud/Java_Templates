@@ -5,7 +5,7 @@ public class ReadEmployeeFile2 {
 
   public static void main(String[] args) {
 
-    Path file = Paths.get("//Users//davidstroud//Java_Templates//FileOperations//Employees.txt");
+    Path file = Paths.get("//Users//davidstroud//Java_Templates//FileOperations//Employees//Employees.txt");
     String[] array = new String[3];
     String s = "";
     String delimiter = ",";

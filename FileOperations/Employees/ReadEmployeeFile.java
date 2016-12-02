@@ -6,7 +6,7 @@ public class ReadEmployeeFile {
   public static void main(String[] args) {
 
     Path file =
-      Paths.get("//Users//davidstroud//Java_Templates//FileOperations//Employees.txt");
+      Paths.get("//Users//davidstroud//Java_Templates//FileOperations//Employees//Employees.txt");
     String s = "";
 
     try

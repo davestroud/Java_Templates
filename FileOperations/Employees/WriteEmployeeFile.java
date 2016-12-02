@@ -10,7 +10,7 @@ public class WriteEmployeeFile {
 	public static void main(String[] args) {
 
 		input = new Scanner(System.in);
-		Path file = Paths.get("//Users//davidstroud//Java_Templates//FileOperations//Employees.txt");
+		Path file = Paths.get("//Users//davidstroud//Java_Templates//FileOperations//Employees//Employees.txt");
 		String s = "";
 		String delimiter = ",";
 		int id;

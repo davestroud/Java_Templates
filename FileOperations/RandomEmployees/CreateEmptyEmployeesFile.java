@@ -8,7 +8,7 @@ public class CreateEmptyEmployeesFile {
   public static void main(String[] args) {
 
     Path file =
-      Paths.get("//Users//davidstroud//Java_Templates//FileOperations//RandomEmployees.txt");
+      Paths.get("//Users//davidstroud//Java_Templates//FileOperations//RandomEmployees//RandomEmployees.txt");
     String s = "000,      ,00.00" +
       System.getProperty("line.separator");
     byte[] data = s.getBytes();
