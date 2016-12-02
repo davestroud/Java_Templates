@@ -19,7 +19,7 @@ public class CreateOneRandomAccessRecord {
     try
     {
       fc = (FileChannel)Files.newByteChannel(file, READ, WRITE);
-      fc.position(2 *  RECSIZE);
+      fc.position(2 * RECSIZE);
       fc.write(buffer);
       fc.close();
     }
