@@ -30,8 +30,8 @@ public class ReadEmployeeFile2 {
         name = array[1];
         payRate = Double.parseDouble(array[2]);
         gross = payRate * HRS_IN_WEEK;
-        System.out.println("ID#" + id + " " + name +
-          " S" + payRate + " $" + gross);
+        System.out.println("ID# " + id + " " + name +
+          " $" + payRate + " $" + gross);
         total += gross;
         s = reader.readLine();
       }
