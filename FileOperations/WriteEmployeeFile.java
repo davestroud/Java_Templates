@@ -12,14 +12,15 @@ public class WriteEmployeeFile {
 		input = new Scanner(System.in);
 		Path file = Paths.get("//Users//davidstroud//Java_Templates//FileOperations//Employees.txt");
 		String s = "";
-		String delimiter = ";";
+		String delimiter = ",";
 		int id;
 		String name;
 		double payRate;
 		final int QUIT = 999;
 		try {
 			OutputStream output = new BufferedOutputStream(Files.newOutputStream(file, CREATE));
-			BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(output));
+			BufferedWriter writer = new
+				BufferedWriter(new OutputStreamWriter(output));
 			System.out.print("Enter employee ID number >> ");
 			id = input.nextInt();
 			while (id != QUIT) {
@@ -31,7 +32,7 @@ public class WriteEmployeeFile {
 				s = id + delimiter + name + delimiter + payRate;
 				writer.write(s, 0, s.length());
 				writer.newLine();
-				System.out.print("Enter next ID number or " + QUIT + "to quit >> ");
+				System.out.print("Enter next ID number or " + QUIT + " to quit >> ");
 				id = input.nextInt();
 			}
 			writer.close();
