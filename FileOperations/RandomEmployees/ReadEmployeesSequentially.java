@@ -7,7 +7,7 @@ public class ReadEmployeesSequentially {
   public static void main(String[] args) {
 
     Path file =
-      Paths.get("//Users//davidstroud//Java_Templates//FileOperations//RandomEmployees//RandomEmployees.txt");
+      Paths.get("//Users//davidstroud//Java_Templates//FileOperations//RandomEmployees//RandomEmployees//RandomEmployees.txt");
     String[] array = new String[3];
     String s = "";
     String delimiter = ",";

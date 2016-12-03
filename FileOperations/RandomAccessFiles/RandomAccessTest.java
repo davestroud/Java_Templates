@@ -9,7 +9,7 @@ public class RandomAccessTest {
   public static void main(String[] args) {
 
     Path file =
-      Paths.get("//Users//davidstroud//Java_Templates//FileOperations//Numbers.txt");
+      Paths.get("//Users//davidstroud//Java_Templates//FileOperations//RandomAccessFiles//Numbers.txt");
     String s = "DAV";
     byte[] data = s.getBytes();
     ByteBuffer out = ByteBuffer.wrap(data);

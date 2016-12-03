@@ -21,7 +21,7 @@ public class DisplaySavedEmployeeList
             for(int x = 0; x < array.length; ++x)
                System.out.print(array[x] + "  ");
             System.out.println();
-            s = reader.readLine();           
+            s = reader.readLine();
          }
          reader.close();
       }
