@@ -3,22 +3,16 @@
 import java.nio.file.*;
 import java.nio.file.attribute.*;
 import java.io.IOException;
+import static java.nio.file.AccessMode.*;
 
-public class Encrypter {
+public class Encryptor {
 
   public static void main(String[] args) {
 
     Path file1 =
-      Paths.get("Users//davidstroud//Java_Templates//Encrypter_Project//xxxx.txt");
+      Paths.get("//Users//davidstroud//Java_Templates//Encrypter_Project//keyword.txt");
     Path file2 =
-      Paths.get("Users//davidstroud//Java_Templates//Encrypter_Project//xxxx.txt")
-      try
-      {
-        BasicFileAttributes attr1 =
-          Files.readAttributes(file1, BasicFileAttributes.class);
-        BasicFileAttributes attr2 =
-          Files.readAttributes(file2, BasicFileAttributes.class);
-      }
+      Paths.get("//Users//davidstroud//Java_Templates//Encrypter_Project//input.txt");
 
   }
 }

@@ -1,1 +1,1 @@
-// Input plain text file
+THE QUICK BROWN FOX JUMPED OVER THE LAZY DOG
