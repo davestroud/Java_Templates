@@ -5,21 +5,21 @@ import java.nio.ByteBuffer;
 import static java.nio.file.StandardOpenOption.*;
 import static java.nio.file.AccessMode.*;
 
-public class Encryptor {
+public class Test {
 
   public static void main(String[] args) {
 
-    Path keywordFile =
-      Paths.get("//Users//davidstroud//Java_Templates//Encryptor_Project//keyword.txt");
     Path inputFile =
-      Paths.get("//Users//davidstroud//Java_Templates//Encryptor_Project//input.txt");
+      Paths.get("//Users//davidstroud//Java_Templates//Encryptor_Project//play.txt");
+    String s = "THE QUICK BROWN FOX JUMPED OVER THE LAZY DOG";
+
+
     byte[] data = s.getBytes();
 
     OutputStream output = null;
     try
     {
-      output = new BufferedOutputStream(Files.newOutputStream(keywordFile, READ));
-      output = new BufferedOutputStream(Files.newOutputStream(inputFile, READ));
+      output = new BufferedOutputStream(Files.newOutputStream(inputFile, CREATE));
       output.write(data);
       output.flush();
       output.close();
