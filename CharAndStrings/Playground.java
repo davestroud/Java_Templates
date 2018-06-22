@@ -8,9 +8,8 @@ public class Playground {
     String myName = "David";
     int len1 = myName.length();
     System.out.println(len1);
-    System.out.println (myName.indexOf('a'));
+    System.out.println (myName.indexOf('D'));
     System.out.println(myName.toUpperCase());
     System.out.println(myName.toLowerCase());
-
   }
 }
